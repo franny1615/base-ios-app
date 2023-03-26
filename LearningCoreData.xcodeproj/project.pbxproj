@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0151AEB829D0CC3C00888B50 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151AEB429D0CC3C00888B50 /* Person.swift */; };
+		0151AEBA29D0CC3C00888B50 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151AEB629D0CC3C00888B50 /* Family.swift */; };
+		0151AEBF29D0CD1300888B50 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151AEBE29D0CD1300888B50 /* MainViewModel.swift */; };
+		0151AEC129D0CD4900888B50 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151AEC029D0CD4900888B50 /* EditPersonView.swift */; };
 		01F1ED2129BE729D002D98D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1ED2029BE729D002D98D4 /* AppDelegate.swift */; };
 		01F1ED2B29BE729D002D98D4 /* LearningCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01F1ED2929BE729D002D98D4 /* LearningCoreData.xcdatamodeld */; };
 		01F1ED2D29BE729D002D98D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F1ED2C29BE729D002D98D4 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0151AEB429D0CC3C00888B50 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0151AEB629D0CC3C00888B50 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		0151AEBE29D0CD1300888B50 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0151AEC029D0CD4900888B50 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 		01F1ED1D29BE729D002D98D4 /* LearningCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F1ED2029BE729D002D98D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F1ED2A29BE729D002D98D4 /* LearningCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearningCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -59,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0151AEBC29D0CC6500888B50 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0151AEB429D0CC3C00888B50 /* Person.swift */,
+				0151AEB629D0CC3C00888B50 /* Family.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0151AEBD29D0CD0000888B50 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				01F1ED5329BEA97F002D98D4 /* MainView.swift */,
+				0151AEBE29D0CD1300888B50 /* MainViewModel.swift */,
+				0151AEC029D0CD4900888B50 /* EditPersonView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		01F1ED1429BE729D002D98D4 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +113,8 @@
 				01F1ED2929BE729D002D98D4 /* LearningCoreData.xcdatamodeld */,
 				01F1ED5529BEACFE002D98D4 /* main.swift */,
 				01F1ED2029BE729D002D98D4 /* AppDelegate.swift */,
-				01F1ED5329BEA97F002D98D4 /* MainView.swift */,
+				0151AEBD29D0CD0000888B50 /* Main */,
+				0151AEBC29D0CC6500888B50 /* Entities */,
 			);
 			path = LearningCoreData;
 			sourceTree = "<group>";
@@ -200,10 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0151AEBF29D0CD1300888B50 /* MainViewModel.swift in Sources */,
 				01F1ED2B29BE729D002D98D4 /* LearningCoreData.xcdatamodeld in Sources */,
 				01F1ED5429BEA97F002D98D4 /* MainView.swift in Sources */,
+				0151AEBA29D0CC3C00888B50 /* Family.swift in Sources */,
+				0151AEB829D0CC3C00888B50 /* Person.swift in Sources */,
 				01F1ED5629BEACFE002D98D4 /* main.swift in Sources */,
 				01F1ED2129BE729D002D98D4 /* AppDelegate.swift in Sources */,
+				0151AEC129D0CD4900888B50 /* EditPersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
